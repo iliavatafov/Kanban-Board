@@ -176,7 +176,9 @@ export const AddUpdateTask = () => {
           className={styles["add-wrapper"]}
           onClick={showColorPicker ? handleCloseColorPicker : null}
         >
-          <h1 className={styles.title}>Create issue</h1>
+          <h1 className={styles.title}>
+            {update.isUpdate ? "Update issue" : "Create issue"}
+          </h1>
           <div>
             <label htmlFor="title">
               Title <span>*</span>
