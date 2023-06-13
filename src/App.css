@@ -12,7 +12,9 @@
 }
 
 .add-btn-wrapper {
-  width: 100%;
+  width: 95vw;
+  max-width: 1600px;
+  min-width: 1200px;
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;

@@ -50,7 +50,7 @@ function App() {
   }, [tasks.length, loading, dispatch]);
 
   return (
-    <div className="App">
+    <div className="App" data-testid="app-component">
       {loading && <Spinner />}
       {!loading && tasks.length > 0 && (
         <>
